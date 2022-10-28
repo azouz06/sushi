@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f605b0ae82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--header-->
+
+
+<div class="navebar">
+    <nav>
+      <div>
+        <img src="logo.png" class="logo" alt="logo">
+      </div>
+      <div class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./carte.html" id="carte">Carte</a></li>
+            <li><a href="./apropos.html">A propos</a></li>
+            <li><a href="./contact.html">Conact</a></li>
+        </ul>
+      </div>
+        <div class="icone">
+          <img class="icone" src="icone.png" alt="iconeacheter">
+        </div>
+   </nav> 
+</div>
+    <!-- fin header-->
+
+
+<div class="image-sushi">
+    <img src="maki-saumon-cheese.png" alt="image-sushi">
+</div>
+<div class="carte-sushi">
+    <div class="partie-image">
+        <div class="lwel">
+             <div class="sushi-image">
+                 <img class="les-images" src="maki-concombre-cheese.png" alt="">
+                 
+                 <div class="tt">
+                    <div class="plus">
+                        <h4  class="titre" >Sushi-Saumon</h4>
+                        <p> 3 piece</p>
+                        <p> 3.9 $</p>
+                   </div >
+                   <div class="ic">
+                      <i class="fa-solid fa-circle-plus"></i>
+                   </div>
+                   
+                </div> 
+              </div>
+              <div class="sushi-image">
+                  <img class="les-images" src="maki-saumon-avocat.png" alt="">
+                  <div class="tt">
+                    <div class="plus">
+                       <h4 class="titre" >saumon-avocat</h4>
+                       <p> 3 piece</p>
+                       <p> 3.9 $</p>
+                    </div>
+                    <div class="ic">
+                      <i class="fa-solid fa-circle-plus"></i>
+                    </div>
+                  </div>
+              </div>
+              <div class="sushi-image">
+                  <img class="les-images" src="maki-concombre.png" alt="">
+                  <div class="tt">
+                     <div class="plus">
+                        <h4 class="titre" >saumon-chees</h4>
+                        <p> 3 piece</p>
+                        <p> 3.9 $</p>
+                     </div>
+                     <div class="ic">
+                         <i class="fa-solid fa-circle-plus"></i>
+                     </div>
+                  </div>
+              </div>
+           
+        </div>
+
+        <div class="tani">
+           
+            <div class="sushi-image">
+                 <img class="les-images" src="maki-thon.png" alt="">
+                 <div class="tt">
+                     <div class="plus">
+                          <h4 class="titre" >Saumon - thon </h4>
+                          <p> 3 piece</p>
+                          <p> 3.9 $</p>
+                      </div>
+                      <div class="ic">
+                      <i class="fa-solid fa-circle-plus"></i>
+                      </div>
+                 </div>
+            </div>
+            <div class="sushi-image">
+                    <img class="les-images" src="maki-saumon.png" alt="">
+                    <div class="tt">
+                         <div class="plus">
+                            <h4 class="titre" >Sushi-fromage</h4>
+                            <p> 3 piece</p>
+                            <p> 3.9 $</p>
+                         </div>
+                         <div class="ic">
+                             <i class="fa-solid fa-circle-plus"></i>
+                         </div>
+                    </div>
+            </div>
+       </div>
+        
+    </div>
+
+    <div class="panier">
+        <div>
+            <h5>Panier</h5>
+        </div>
+        <div  class=" panier1">
+
+
+            
+            <div>
+                <div id="name"></div>
+                <div id="prix"></div>
+                <!--
+                <div  class="ajouter">
+                    <div class="minus"> <i onclick="decrement()" class="fa-solid fa-circle-minus"></i></div>
+                    <div class="acheter1" id="root">0</div>
+                    <div class="minus"> <i  onclick="increment()" class="fa-solid fa-circle-plus"></i></div>
+                </div>-->
+            </div>
+           <div>
+                <div id="name-avocat"></div>
+                <div id="prix-avocat"></div>
+                <!--
+                <div id="quantite" class="ajouter" style="display:none;">
+                    <div class="minus"> <i onclick="decrement()" class="fa-solid fa-circle-minus"></i></div>
+                    <div class="acheter1" id="root">0</div>
+                    <div class="minus"> <i  onclick="increment()" class="fa-solid fa-circle-plus"></i></div>
+                </div>
+            -->
+                <!---->
+            </div>
+                    
+
+        </div>
+        <div class="total">
+            <button class="ttt" onclick="produit()">TOTALE</button>
+            <p   class="input-total" id="somroot">0</p>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<!--footer start-->
+<footer id="footer"  class="footer">
+    <div class="container">
+        <div class="hm-footer-copyright text-center">
+            <div class="footer-social">
+              
+            </div>
+            <p>
+                &copy;copyright. designed and developed by <a href="https://www.daytondailynews.com/what-to-know/ariake-grille-sushi-bar-to-open-second-location-in-bellbrook/UUMQ3PY6KNHDXCRPQSWWE24QVY/">themesine</a>
+            </p><!--/p-->
+        </div><!--/.text-center-->
+    </div><!--/.container-->
+
+    <div id="scroll-Top">
+        <div class="return-to-top">
+            <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+        </div>
+        
+    </div><!--/.scroll-Top-->
+    
+</footer><!--/.footer-->
+
+</body>
+</html>

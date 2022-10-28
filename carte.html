@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f605b0ae82.js" crossorigin="anonymous"></script>
+   
+ 
+</head>
+<body>
+
+    <!--header-->
+
+
+<div class="navebar">
+    <nav>
+      <div>
+        <img src="logo.png" class="logo" alt="logo">
+      </div>
+      <div class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./carte.html" id="carte">Carte</a></li>
+            <li><a href="./apropos.html">A propos</a></li>
+            <li><a href="./contact.html">Conact</a></li>
+        </ul>
+      </div>
+        <div class="icone" id="sla" onclick="sla()" style="cursor: pointer;">
+          <img class="icone"  src="icone.png" alt="iconeacheter">
+        </div>
+   </nav> 
+</div>
+    <!-- fin header-->
+
+
+<div class="image-sushi">
+    <img src="plateausushi.jpg" alt="image-sushi">
+</div>
+<div class="carte-sushi">
+    <div class="categorie">
+        <div><h3>Categorie :</h3></div>
+             <a id="tit" onclick="kolchi()" style="cursor: pointer;">TOUTE</a>
+            <a  onclick="lwal()" style="cursor: pointer;">sushi</a>
+            <a  onclick="tani()" style="cursor: pointer;">salade</a>
+            <a  onclick="talt()" style="cursor: pointer;">maki</a>
+            
+    </div>
+    <div class="partie-image">
+        <div id="groupe1">
+            <div class="lwel">
+                <div class="sushi-image">
+                    <img class="les-images" src="sushi-saumon.png" alt="">
+                    
+                    <div class="tt">
+                       <div class="plus">
+                           <h4  class="titre" >Sushi-Saumon</h4>
+                           <p> 3 piece</p>
+                           <p> 3.9 $</p>
+                      </div >
+                      <div class="ic">
+                         <i id="ach" class="fa-solid fa-circle-plus"   onclick="sushi(3.9,'Sushi-saumon      3.9 $')" style="cursor: pointer;"></i>
+                      </div>
+                      
+                   </div> 
+                </div>
+                <div class="sushi-image">
+                     <img class="les-images" src="sushi-saumon-avocat.png" alt="">
+                     <div class="tt">
+                       <div class="plus">
+                          <h4 class="titre" >saumon-avocat</h4>
+                          <p> 3 piece</p>
+                          <p> 3.9 $</p>
+                       </div>
+                       <div class="ic">
+                         <i class="fa-solid fa-circle-plus"  onclick="sushi(3.9,'saumon-avocat   3.9 $')" style="cursor: pointer;"></i>
+                       </div>
+                     </div>
+                 </div>
+                 <div class="sushi-image">
+                     <img class="les-images" src="sushi-saumon-cheese.png" alt="">
+                     <div class="tt">
+                        <div class="plus">
+                           <h4 class="titre" >saumon-chees</h4>
+                           <p> 3 piece</p>
+                           <p> 3.9 $</p>
+                        </div>
+                        <div class="ic">
+                            <i class="fa-solid fa-circle-plus" onclick="sushi(3.9,'saumon-avocat     3.9 $')" style="cursor: pointer;"></i>
+                        </div>
+                     </div>
+                 </div>
+              
+           </div>
+   
+           <div class="tani">
+               <div class="sushi-image">
+                   <img class="les-images" src="sushi-tataki.png" alt="">
+                   <div class="tt">
+                       <div class="plus">
+                           <h4 class="titre" >Saumon- tataki</h4>
+                           <p> 3 piece</p>
+                           <p> 4 $</p>
+                       </div>
+                       <div class="ic">
+                           <i class="fa-solid fa-circle-plus" onclick="sushi(4,'saumon-tataki      4 $')" style="cursor: pointer;"></i>
+                       </div>
+                   </div>
+               </div>
+               <div class="sushi-image">
+                    <img class="les-images" src="sushi-thon.png" alt="">
+                    <div class="tt">
+                        <div class="plus">
+                             <h4 class="titre" >Saumon - thon </h4>
+                             <p> 3 piece</p>
+                             <p> 4.9 $</p>
+                         </div>
+                         <div class="ic">
+                         <i class="fa-solid fa-circle-plus" onclick="sushi(4.9,'saumon-avocat      4.9 $')" style="cursor: pointer;"></i>
+                         </div>
+                    </div>
+               </div>
+               <div class="sushi-image">
+                       <img class="les-images" src="sushi saumon fromage.webp" alt="">
+                       <div class="tt">
+                            <div class="plus">
+                               <h4 class="titre" >Sushi-fromage</h4>
+                               <p> 3 piece</p>
+                               <p> 3.5 $</p>
+                            </div>
+                            <div class="ic">
+                                <i class="fa-solid fa-circle-plus" onclick="sushi(3.5,'sushi-fromage      3.5 $')" style="cursor: pointer;"></i>
+                            </div>
+                       </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="groupe2">
+
+            <div class="lwel">
+                <div class="sushi-image">
+                    <img class="les-images" src="salade1.webp" alt="">
+                    
+                    <div class="tt">
+                       <div class="plus">
+                           <h4  class="titre" >Sushi-Saumon</h4>
+                           <p> 3 piece</p>
+                           <p> 8 $</p>
+                      </div >
+                      <div class="ic">
+                         <i class="fa-solid fa-circle-plus" onclick="sushi(8,'sushi-fromage      8 $')" style="cursor: pointer;"></i>
+                      </div>
+                      
+                   </div> 
+                 </div>
+                 <div class="sushi-image">
+                     <img class="les-images" src="salade2.webp" alt="">
+                     <div class="tt">
+                       <div class="plus">
+                          <h4 class="titre" >saumon-avocat</h4>
+                          <p> 3 piece</p>
+                          <p> 3.9 $</p>
+                       </div>
+                       <div class="ic">
+                         <i class="fa-solid fa-circle-plus"></i>
+                       </div>
+                     </div>
+                 </div>
+                 <div class="sushi-image">
+                     <img class="les-images" src="salade3.jpg" alt="">
+                     <div class="tt">
+                        <div class="plus">
+                           <h4 class="titre" >saumon-chees</h4>
+                           <p> 3 piece</p>
+                           <p> 3.9 $</p>
+                        </div>
+                        <div class="ic">
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                     </div>
+                 </div>
+              
+            </div>
+            
+            <div class="tani">
+               <div class="sushi-image">
+                   <img class="les-images" src="salade4.jfif" alt="">
+                   <div class="tt">
+                       <div class="plus">
+                           <h4 class="titre" >Saumon- tataki</h4>
+                           <p> 3 piece</p>
+                           <p> 3.9 $</p>
+                       </div>
+                       <div class="ic">
+                           <i class="fa-solid fa-circle-plus"></i>
+                       </div>
+                   </div>
+               </div>
+               <div class="sushi-image">
+                    <img class="les-images" src="salade5.jpg" alt="">
+                    <div class="tt">
+                        <div class="plus">
+                             <h4 class="titre" >Saumon - thon </h4>
+                             <p> 3 piece</p>
+                             <p> 3.9 $</p>
+                         </div>
+                         <div class="ic">
+                         <i class="fa-solid fa-circle-plus"></i>
+                         </div>
+                    </div>
+               </div>
+               <div class="sushi-image">
+                       <img class="les-images" src="salde6.jpg" alt="">
+                       <div class="tt">
+                            <div class="plus">
+                               <h4 class="titre" >Sushi-fromage</h4>
+                               <p> 3 piece</p>
+                               <p> 3.9 $</p>
+                            </div>
+                            <div class="ic">
+                                <i class="fa-solid fa-circle-plus"></i>
+                            </div>
+                       </div>
+               </div>
+            </div>
+
+        </div>
+        
+    
+
+        <div id="groupe3">
+              
+            <div class="lwel">
+                <div class="sushi-image">
+                    <img class="les-images" src="maki-concombre-cheese.png" alt="">
+                    
+                    <div class="tt">
+                       <div class="plus">
+                           <h4  class="titre" >maki-Saumon</h4>
+                           <p> 3 piece</p>
+                           <p> 3.9 $</p>
+                      </div >
+                      <div class="ic">
+                         <i class="fa-solid fa-circle-plus" onclick="sushi(3.5,'+ maki -saumon       3.5 $')" style="cursor: pointer;" ></i>
+                      </div>
+                      
+                   </div> 
+                 </div>
+                 <div class="sushi-image">
+                     <img class="les-images" src="maki-saumon-avocat.png" alt="">
+                     <div class="tt">
+                       <div class="plus">
+                          <h4 class="titre" >maki -concombre</h4>
+                          <p> 3 piece</p>
+                          <p> 3.9 $</p>
+                       </div>
+                       <div class="ic">
+                         <i class="fa-solid fa-circle-plus" onclick="sushi(3.5,'+ maki- concombre      3.5 $')" style="cursor: pointer;"></i>
+                       </div>
+                     </div>
+                 </div>
+                 <div class="sushi-image">
+                     <img class="les-images" src="maki-concombre.png" alt="">
+                     <div class="tt">
+                        <div class="plus">
+                           <h4 class="titre" >concombre - cheese</h4>
+                           <p> 3 piece</p>
+                           <p> 3.9 $</p>
+                        </div>
+                        <div class="ic">
+                            <i class="fa-solid fa-circle-plus" onclick="sushi(3.5,'+ concombre - cheese      3.5 $')" style="cursor: pointer;"></i>
+                        </div>
+                     </div>
+                 </div>
+              
+           </div>
+           <div class="tani">
+               
+            <div class="sushi-image">
+                 <img class="les-images" src="maki-thon.png" alt="">
+                 <div class="tt">
+                     <div class="plus">
+                          <h4 class="titre" >maki - avocat</h4>
+                          <p> 3 piece</p>
+                          <p> 3.9 $</p>
+                      </div>
+                      <div class="ic">
+                      <i class="fa-solid fa-circle-plus" onclick="sushi(3.5,'+ maki - avocat      3.5 $')" style="cursor: pointer;"></i>
+                      </div>
+                 </div>
+            </div>
+            <div class="sushi-image">
+                    <img class="les-images" src="maki-saumon.png" alt="">
+                    <div class="tt">
+                         <div class="plus">
+                            <h4 class="titre" >Sushi-fromage</h4>
+                            <p> 3 piece</p>
+                            <p> 3.9 $</p>
+                         </div>
+                         <div class="ic">
+                             <i class="fa-solid fa-circle-plus" onclick="sushi(3.5,'+ maki - thon      3.5 $')" style="cursor: pointer;"></i>
+                         </div>
+                    </div>
+            </div>
+           </div>
+        </div>
+       
+        
+    </div>
+         
+    
+
+
+
+  <div id="panier">
+    <div id="x" onclick="x()" style="cursor: pointer;"><p class="xx">X</p></div>
+       <div>
+       <h5>Panier</h5>
+       </div>
+      <div  id=" panier1">
+
+
+   
+      <div class="">
+       <div id="name"></div>
+       <div id="prix"></div>
+       <!--
+       <div  class="ajouter">
+           <div class="minus"> <i onclick="decrement()" class="fa-solid fa-circle-minus"></i></div>
+           <div class="acheter1" id="root">0</div>
+           <div class="minus"> <i  onclick="increment()" class="fa-solid fa-circle-plus"></i></div>
+       </div>-->
+      </div>
+       <div>
+       <div id="name-avocat"></div>
+       <div id="prix-avocat"></div>
+       <!--
+       <div id="quantite" class="ajouter" style="display:none;">
+           <div class="minus"> <i onclick="decrement()" class="fa-solid fa-circle-minus"></i></div>
+           <div class="acheter1" id="root">0</div>
+           <div class="minus"> <i  onclick="increment()" class="fa-solid fa-circle-plus"></i></div>
+       </div>
+      -->
+       <!---->
+        </div>
+           
+
+     </div>
+      <div class="total">
+      <button class="ttt" >TOTALE</button>
+      <p   class="input-total" id="somroot">0</p>
+   </div>
+
+ </div>    
+</div>
+
+   
+
+
+<!--footer start-->
+<footer id="footer"  class="footer">
+    <div class="container">
+              <p>
+                &copy;copyright. designed and developed by <a href="https://www.daytondailynews.com/what-to-know/ariake-grille-sushi-bar-to-open-second-location-in-bellbrook/UUMQ3PY6KNHDXCRPQSWWE24QVY/">themesine</a>
+            </p><!--/p-->
+      
+    </div><!--/.container-->
+    
+</footer><!--/.footer-->
+
+<script type="text/javascript" src="total.js"></script>
+
+</body>
+</html>
