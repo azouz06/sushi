@@ -17,21 +17,29 @@
 
 <div class="navebar">
     <nav>
-      <div>
-        <img src="logo.png" class="logo" alt="logo">
-      </div>
-      <div class="menu">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./carte.html" id="carte">Carte</a></li>
-            <li><a href="./apropos.html">A propos</a></li>
-            <li><a href="./contact.html">Conact</a></li>
-        </ul>
-      </div>
-        <div class="icone" id="sla" onclick="sla()" style="cursor: pointer;">
-          <img class="icone"  src="icone.png" alt="iconeacheter">
+       
+        <div class="test">
+            <div> 
+            <img src="logo.png" class="logo" alt="logo">
+          </div>
+            <div id="checkbtn" onclick="AA()" style="cursor: pointer;"  >
+             <i class="fa-solid fa-bars"></i> 
+            </div> 
+           </div>
+        <div class="menu" >
+          <ul id="menu-tog">
+              <li><a href="./index.html" id="home">Home</a></li>
+              <li><a href="./carte.html">Carte</a></li>
+              <li><a href="./apropos.html">A propos</a></li>
+              <li><a href="./contact.html">Conact</a></li>
+          </ul>
         </div>
-   </nav> 
+        <div class="icone" id="sla" onclick="sla()" style="cursor: pointer;">
+            <img class="icone"  src="icone.png" alt="iconeacheter">
+          </div>
+       
+     </nav> 
+    
 </div>
     <!-- fin header-->
 
@@ -326,17 +334,17 @@
    
       <div class="">
        <div id="name"></div>
-       <div id="prix"></div>
+       <div id="prix"></div> 
        <!--
        <div  class="ajouter">
            <div class="minus"> <i onclick="decrement()" class="fa-solid fa-circle-minus"></i></div>
            <div class="acheter1" id="root">0</div>
            <div class="minus"> <i  onclick="increment()" class="fa-solid fa-circle-plus"></i></div>
        </div>-->
-      </div>
+      <!-- </div>
        <div>
        <div id="name-avocat"></div>
-       <div id="prix-avocat"></div>
+       <div id="prix-avocat"></div> -->
        <!--
        <div id="quantite" class="ajouter" style="display:none;">
            <div class="minus"> <i onclick="decrement()" class="fa-solid fa-circle-minus"></i></div>

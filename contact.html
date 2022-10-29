@@ -14,21 +14,28 @@
 
 <div class="navebar">
     <nav>
-      <div>
-        <img src="logo.png" class="logo" alt="logo">
-      </div>
-      <div class="menu">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./carte.html">Carte</a></li>
-            <li><a href="./apropos.html">A propos</a></li>
-            <li><a href="./contact.html" id="contact">Conact</a></li>
-        </ul>
-      </div>
-        <div class="icone">
-          <img class="icone" src="icone.png" alt="iconeacheter">
+       
+        <div class="test">
+            <div> 
+            <img src="logo.png" class="logo" alt="logo">
+          </div>
+            <div id="checkbtn" onclick="AA()" style="cursor: pointer;"  >
+             <i class="fa-solid fa-bars"></i> 
+            </div> 
+           </div>
+        <div class="menu" >
+          <ul id="menu-tog">
+              <li><a href="./index.html" id="home">Home</a></li>
+              <li><a href="./carte.html">Carte</a></li>
+              <li><a href="./apropos.html">A propos</a></li>
+              <li><a href="./contact.html">Conact</a></li>
+          </ul>
         </div>
-   </nav> 
+        <div class="icone" id="sla" onclick="sla()" style="cursor: pointer;">
+            <img class="icone"  src="icone.png" alt="iconeacheter">
+          </div>
+       
+     </nav> 
 
     <!-- fin header-->
 </div>
@@ -71,28 +78,12 @@
 <!--footer start-->
 <footer id="footer"  class="footer">
     <div class="container">
-        <div class="hm-footer-copyright text-center">
-            <div class="footer-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>	
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-pinterest"></i></a>
-                <a href="#"><i class="fa fa-behance"></i></a>	
-            </div>
             <p>
                 &copy;copyright. designed and developed by <a href="https://www.daytondailynews.com/what-to-know/ariake-grille-sushi-bar-to-open-second-location-in-bellbrook/UUMQ3PY6KNHDXCRPQSWWE24QVY/">themesine</a>
             </p><!--/p-->
-        </div><!--/.text-center-->
-    </div><!--/.container-->
-
-    <div id="scroll-Top">
-        <div class="return-to-top">
-            <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-        </div>
         
-    </div><!--/.scroll-Top-->
-    
+    </div><!--/.container--> 
 </footer><!--/.footer-->
-
+<script type="text/javascript" src="total.js"></script>
 </body>
 </html>

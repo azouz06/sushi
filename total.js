@@ -26,13 +26,23 @@
 //     document.getElementById("name-avocat").innerHTML=name;
     
 // }
+
+function AA(){
+    document.getElementById("menu-tog").style.display="block";
+}
+
+
+
+
+
 var text=[]
 var i=0;
 var som=0;
 function sushi(id,name){
-    document.getElementById("prix").innerHTML=id;
+    
     var p = document.createElement("p");
     text[i]=document.createTextNode(name)
+
     p.appendChild(text[i])
     document.getElementById("name").appendChild(p)
 
